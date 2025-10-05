@@ -1,16 +1,17 @@
 # Simple-Diabetes-Risk-Predictor-2.0
 
-````markdown
+
 A machine learning project to predict diabetes risk using the **Pima Indians Diabetes Dataset**.  
 Built with **PyTorch** (model), **FastAPI** (API), and **Streamlit** (UI).
 
-## Installation
+# Installation
 
 ```bash
 git clone <repository-url>
 cd diabetes-predictor
-
+```
 # Create virtual environment
+````markdown
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
