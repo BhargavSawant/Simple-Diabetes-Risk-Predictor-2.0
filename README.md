@@ -7,20 +7,19 @@ Built with **PyTorch** (model), **FastAPI** (API), and **Streamlit** (UI).
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/BhargavSawant/Simple-Diabetes-Risk-Predictor-2.0.git
 cd diabetes-predictor
 ```
 ## Create virtual environment
-````markdown
+```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
-
+```
+```
 # Install dependencies
 pip install -r requirements.txt
-````
-
-## Usage
+```
 
 ### Train Model
 
@@ -32,12 +31,10 @@ python train_torch.py
 
 ```bash
 uvicorn main:app --reload
-# Docs: http://localhost:8000/docs
 ```
 
 ### Run Frontend (Streamlit)
 
 ```bash
 streamlit run streamlit_app.py
-# UI: http://localhost:8501
 ```
