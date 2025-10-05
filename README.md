@@ -8,6 +8,8 @@ Built with **PyTorch** (model), **FastAPI** (API), and **Streamlit** (UI).
 
 ```bash
 git clone https://github.com/BhargavSawant/Simple-Diabetes-Risk-Predictor-2.0.git
+```
+```
 cd diabetes-predictor
 ```
 ## Create virtual environment
