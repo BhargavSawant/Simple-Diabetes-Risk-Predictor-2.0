@@ -40,3 +40,8 @@ uvicorn main:app --reload
 ```bash
 streamlit run streamlit_app.py
 ```
+### Ouput 
+<img width="1092" height="813" alt="Screenshot 2025-11-12 202126" src="https://github.com/user-attachments/assets/dbef4cf6-0a76-48cc-8ba3-11143201c71c" />
+<img width="1251" height="905" alt="Screenshot 2025-11-12 202225" src="https://github.com/user-attachments/assets/2bffe90c-a2b9-42c4-8610-359014876096" />
+
+
